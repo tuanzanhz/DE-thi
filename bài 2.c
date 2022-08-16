@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<string.h>
 
-void upperCase(char s[])
+void upperCase(char s[100])
 {
 	int i, a;
 	a = strlen(s);
