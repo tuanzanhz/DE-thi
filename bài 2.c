@@ -1,6 +1,5 @@
 #include<stdio.h>
 #include<string.h>
-#define max 100
 
 void upperCase(char s[])
 {
@@ -15,7 +14,7 @@ void upperCase(char s[])
 	printf("%s", s);
 }
   int main() {
-	char s[max];
+	char s[100];
 	printf("nhap chuoi ki tu can chuyen thanh in hoa la :  ");
 	gets(s);
 	upperCase(s);	
